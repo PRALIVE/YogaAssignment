@@ -7,6 +7,26 @@
 **Server:** Node JS, Express JS
 
 **Database:** Mongo DB
+
+## Database model/schema
+
+    name: { type: "String", required: true },
+    email: { type: "String", required: true },
+    password:{type: "String", required: true},
+    age: { type: "Number", required: true },
+    batch: { type: "String", required : true,default:"none"},
+    paymentStatus: { type: "String", required : true, default: "pending" },
+    pic: {
+      type: "String",
+      required: true,
+      default:
+        "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    },
+    month : { type: "String" , required: true, default: "none"},
+    
+batch : stores the batch selected by user</br>
+paymentStatus: stores whether the user paid fees or is it pending</br>
+month: it keeps in check like if a user paid for April month and then as May(new month) starts it shows payment modal for user to pay fees for next month
   
 ## Live Link
 
