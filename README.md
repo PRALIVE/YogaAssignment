@@ -30,7 +30,12 @@ month: it keeps in check like if a user paid for April month and then as May(new
   
 ## Live Link
 
-https://yoga-qzal.onrender.com/
+https://yoga-qzal.onrender.com/</br>
+Some guest accounts : </br>
+email: luffy@gmail.com or zoro@gmail.com </br>
+password: 12345678 </br>
+
+Note: If want to see payment modal then register as a new user
 
 Clone the project
 
