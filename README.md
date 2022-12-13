@@ -10,7 +10,7 @@
   
 ## Live Link
 
-https://chattingapp2222.herokuapp.com/
+https://yoga-qzal.onrender.com/
 
 Clone the project
 
