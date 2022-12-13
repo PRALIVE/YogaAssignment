@@ -63,13 +63,13 @@ function Register() {
             };
 
             const { data } = await axios.post(
-              "http://localhost:10000/api/user",
+              "https://yoga-qzal.onrender.com/api/user",
               {
-                name:name,
-                email:email,
-                password:password,
-                age:age,
-                pic:pic,
+                name: name,
+                email: email,
+                password: password,
+                age: age,
+                pic: pic,
               },
               config
             );

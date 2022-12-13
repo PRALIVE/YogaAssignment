@@ -85,7 +85,7 @@ export default function UserPage() {
           };
 
           const { data } = await axios.post(
-            "http://localhost:10000/api/user/newpayment",
+            "https://yoga-qzal.onrender.com/api/user/newpayment",
             {
               email: user.email,
             },
@@ -123,14 +123,14 @@ export default function UserPage() {
             };
 
             const { data } = await axios.post(
-            "http://localhost:10000/api/user/payment",
-            {
-              email: user.email,
-              batch: batch,
-              month : currMonth,
-            },
-            config
-          );
+              "https://yoga-qzal.onrender.com/api/user/payment",
+              {
+                email: user.email,
+                batch: batch,
+                month: currMonth,
+              },
+              config
+            );
           console.log(data);
           localStorage.setItem("userInfo", JSON.stringify(data));
           console.log("Payment Successfull");

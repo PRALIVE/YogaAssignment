@@ -20,7 +20,7 @@ export default function Login(){
           };
 
           const { data } = await axios.post(
-            "http://localhost:10000/api/user/login",
+            "https://yoga-qzal.onrender.com/api/user/login",
             {
               email: email,
               password: password,
